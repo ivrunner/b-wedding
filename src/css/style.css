@@ -60,3 +60,15 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* .bg-cover-image {
+  background-image: url("../images/3 copy.png");
+  background-repeat: repeat;
+  background-color: pink;
+} */
