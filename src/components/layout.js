@@ -70,19 +70,10 @@ const Layout = ({ children }) => (
             <p className="text-white">
               Created by{" "}
               <a
-                href="https://taylorbryant.blog"
+                href="http://www.richmatney.com"
                 className="font-bold no-underline text-white"
               >
-                Taylor Bryant
-              </a>
-            </p>
-
-            <p>
-              <a
-                href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-                className="font-bold no-underline text-white"
-              >
-                GitHub
+                Matney Design Co.
               </a>
             </p>
           </div>
