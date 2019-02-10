@@ -43,6 +43,9 @@ const IndexPage = props => (
           <h1 class="text-bk-blue">RSVP</h1>
           <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
           <form
+            input
+            type="hidden"
+            value="contact-form"
             name="contact"
             method="post"
             action="/thanks/"
