@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <div className="flex flex-wrap items-center justify-center max-w-3xl mx-auto px-8 py-3 md:px-8 md:py-3">
       <Link
         to="/"
-        className="flex items-center no-underline text-white w-1/2 sm:w-1/3 md:w-1/6"
+        className="flex items-center no-underline py-5 text-white w-1/2 sm:w-1/3 md:w-1/6"
       >
         <img src={bklogo} className="" alt="Brook & Kyle Logo" />
       </Link>
