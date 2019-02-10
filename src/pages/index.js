@@ -41,31 +41,62 @@ const IndexPage = props => (
       <div class="flex flex-wrap w-full bg-bk-pink-dark">
         <div class="w-full p-8">
           <h1 class="text-bk-blue">RSVP</h1>
-          <h2 class="text-bk-blue">Please fill out the form below</h2>
-          <form name="contact" netlify>
-            <p class="p-2">
+          <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
+          <form name="contact" method="POST" data-netlify="true">
+            <p class="p-5">
               <label>
-                Name <input type="text" name="name" />
+                Your Name:{" "}
+                <div class="inline-block relative w-64">
+                  <input
+                    class="block appearance-none w-full bg-white border border-grey-light hover:border-grey px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                    type="text"
+                    name="name"
+                  />
+                </div>
               </label>
             </p>
-            <p class="p-2">
+            <p class="p-5">
               <label>
-                How Many Attending?{" "}
-                <input type="number-people" name="number-people" />
+                How Many?:{" "}
+                <div class="inline-block relative w-64">
+                  <select class="block appearance-none w-full bg-white border border-grey-light hover:border-grey px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                  <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
+                    <svg
+                      class="fill-current h-4 w-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </div>
+                </div>
               </label>
             </p>
-            <p class="p-2">
+            <p class="p-5">
               <label>
-                Email <input type="email" name="email" />
+                Your Email:{" "}
+                <div class="inline-block relative w-64">
+                  <input
+                    class="block appearance-none w-full bg-white border border-grey-light hover:border-grey px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                    type="email"
+                    name="email"
+                  />
+                </div>
               </label>
             </p>
-            <p class="p-2">
-              <button
-                class="bg-bk-blue hover:bg-bk-blue-dark text-white font-bold py-2 px-4 rounded"
-                type="submit"
-              >
-                Submit
-              </button>
+            <p>
+              <button type="submit">Send</button>
             </p>
           </form>
         </div>
@@ -81,7 +112,7 @@ const IndexPage = props => (
               <Img
                 fluid={props.data.target.childImageSharp.fluid}
                 class=""
-                alt="Brooke & Kyle"
+                alt="Target Logo"
               />
             </a>
           </div>
@@ -90,7 +121,7 @@ const IndexPage = props => (
               <Img
                 fluid={props.data.amazon.childImageSharp.fluid}
                 class=""
-                alt="Brooke & Kyle"
+                alt="Amazon Logo"
               />
             </a>
           </div>
@@ -129,7 +160,7 @@ const IndexPage = props => (
         <Img
           fluid={props.data.three.childImageSharp.fluid}
           class=""
-          alt="Brooke & Kyle"
+          alt="Brooke & Kyle 3"
         />
       </div>
     </div>
