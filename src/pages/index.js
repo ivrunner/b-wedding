@@ -42,7 +42,13 @@ const IndexPage = props => (
         <div class="w-full p-8">
           <h1 class="text-bk-blue">RSVP</h1>
           <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="post"
+            action="/thanks/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <p class="p-5">
               <label>
                 Your Name:{" "}
