@@ -50,7 +50,7 @@ const IndexPage = props => (
             method="post"
             action="/thanks/"
             netlify-honeypot="bot-field"
-            netlify
+            data-netlify="true"
           >
             <p class="p-5">
               <label>
