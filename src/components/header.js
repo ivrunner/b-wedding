@@ -1,17 +1,27 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 import bklogo from "../images/bk-logo-01.svg";
-import flowerTop from "../images/flower-top.png";
 
-const Header = ({ siteTitle }) => (
+const Header = props => (
   <nav className="bg-cover-image bg-repeat">
-    <div className="text-center sm:w-full relative pin">
-      <img
-        src={flowerTop}
-        className="block mx-auto w-5/6 md:w-1/2"
-        alt="Tap Tourist Logo"
+    <div className="text-center sm:w-full max-w-xl ml-auto mr-auto relative pin">
+      <StaticQuery
+        query={graphql`
+          query {
+            flower: file(relativePath: { eq: "flower-top.png" }) {
+              childImageSharp {
+                fluid(maxWidth: 1000) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        `}
+        render={data => <Img fluid={data.flower.childImageSharp.fluid} />}
       />
     </div>
 
@@ -33,5 +43,15 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``
 };
-
+const query = graphql`
+  query {
+    flower: file(relativePath: { eq: "flower-top.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`;
 export default Header;
