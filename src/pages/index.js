@@ -43,14 +43,14 @@ const IndexPage = props => (
           <h1 class="text-bk-blue">RSVP</h1>
           <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
           <form
+            name="rsvp"
             input
             type="hidden"
             value="contact-form"
-            name="contact"
             method="post"
             action="/thanks/"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            netlify-honeypot="bot-field"
+            netlify
           >
             <p class="p-5">
               <label>
