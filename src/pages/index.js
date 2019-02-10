@@ -19,17 +19,17 @@ const IndexPage = props => (
           />
         </div>
 
-        <div class="w-full md:w-1/2 p-4">
+        <div class="w-full md:w-full md:ml-auto md:mr-auto p-4">
           <h1 class="text-bk-pink">Time & Date</h1>
           <h2 class="text-bk-pink">Saturday July 1st, 2019</h2>
           <p class="text-white">at 2 o'clock in the afternoon</p>
         </div>
-        <div class="w-full md:w-1/2 p-4">
+        <div class="w-full md:w-full p-4">
           <h1 class="text-bk-pink">First Brethren Church</h1>
           <p class="text-white">13050 Williams County Rd C</p>
           <p class="text-white">Bryan, Ohio 43506</p>
         </div>
-        <div class="w-full md:w-1/2 p-4 pb-8">
+        <div class="w-full md:w-full p-4 pb-8">
           <h1 class="text-bk-pink">Reception to follow at:</h1>
           <h2 class="text-bk-pink">K of C Hall</h2>
           <p class="text-white">111 Elliott Rd</p>
@@ -37,7 +37,7 @@ const IndexPage = props => (
         </div>
       </div>
     </div>
-    <div className="text-center w-full bg-wbk-pink-dark">
+    <div className="text-center w-full bg-bk-pink-dark">
       <div class="flex flex-wrap w-full bg-bk-pink-dark">
         <div class="w-full p-8">
           <h1 class="text-bk-blue">RSVP</h1>
@@ -86,7 +86,12 @@ const IndexPage = props => (
               </label>
             </p>
             <p>
-              <button type="submit">Send</button>
+              <button
+                class="bg-bk-blue hover:bg-bk-pink text-white font-bold py-2 px-4 rounded"
+                type="submit"
+              >
+                Submit
+              </button>
             </p>
           </form>
         </div>
@@ -115,13 +120,13 @@ const IndexPage = props => (
               />
             </a>
           </div>
-          <h3 class="leading-normal text-center px-10 pb-5">
+          <h3 class="leading-normal text-center text-bk-blue px-10 pb-5">
             The Bride & Groom ask that if you feel the need to purchase a gift
             that it be a gift card or money towards a honeymoon. If you do
             purchase a gift please have it shipped to their home at the address
             below:
           </h3>
-          <h2 class="leading-normal text-center px-10 pb-10">
+          <h2 class="leading-normal text-center text-bk-blue px-10 pb-10">
             12311 Kensington Lakes Dr Unit 1905, Jacksonville, FL 32246-7167
           </h2>
         </div>
