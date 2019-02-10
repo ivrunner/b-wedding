@@ -29,7 +29,6 @@ const IndexPage = props => (
         </div>
         <div class="w-full md:w-1/2 p-4">
           <h1 class="text-bk-pink">First Brethren Church</h1>
-          <h2 class="text-bk-pink">K of C Hall</h2>
           <p class="text-white">13050 Williams County Rd C</p>
           <p class="text-white">Bryan, Ohio 43506</p>
         </div>
@@ -48,7 +47,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "bkpic.jpg" }) {
+    imageOne: file(relativePath: { eq: "IMG_9035.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
