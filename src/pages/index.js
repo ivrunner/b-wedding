@@ -11,7 +11,7 @@ const IndexPage = props => (
 
     <div className="text-center">
       <div class="flex flex-wrap">
-        <div class="w-full border-4 border-bk-pink">
+        <div class="w-full md:w-1/2 md:m-auto">
           <Img
             fluid={props.data.imageOne.childImageSharp.fluid}
             class=""
@@ -19,27 +19,29 @@ const IndexPage = props => (
           />
         </div>
 
-        <div class="w-full md:w-full md:ml-auto md:mr-auto p-4">
-          <h1 class="text-bk-pink">Time & Date</h1>
-          <h2 class="text-bk-pink">Saturday July 1st, 2019</h2>
-          <p class="text-white">at 2 o'clock in the afternoon</p>
-        </div>
-        <div class="w-full md:w-full p-4">
-          <h1 class="text-bk-pink">First Brethren Church</h1>
-          <p class="text-white">13050 Williams County Rd C</p>
-          <p class="text-white">Bryan, Ohio 43506</p>
-        </div>
-        <div class="w-full md:w-full p-4 pb-8">
-          <h1 class="text-bk-pink">Reception to follow at:</h1>
-          <h2 class="text-bk-pink">K of C Hall</h2>
-          <p class="text-white">111 Elliott Rd</p>
-          <p class="text-white">Defiance, Ohio 43512</p>
+        <div class="w-full md:w-1/2 p-10 md:align-middle md:m-auto">
+          <div class="p-5">
+            <h1 class="text-bk-pink">Time & Date</h1>
+            <h2 class="text-bk-pink">Saturday July 1st, 2019</h2>
+            <p class="text-white">at 2 o'clock in the afternoon</p>
+          </div>
+          <div class="p-5">
+            <h1 class="text-bk-pink">First Brethren Church</h1>
+            <p class="text-white">13050 Williams County Rd C</p>
+            <p class="text-white">Bryan, Ohio 43506</p>
+          </div>
+          <div class="p-5">
+            <h1 class="text-bk-pink">Reception to follow at:</h1>
+            <h2 class="text-bk-pink">K of C Hall</h2>
+            <p class="text-white">111 Elliott Rd</p>
+            <p class="text-white">Defiance, Ohio 43512</p>
+          </div>
         </div>
       </div>
     </div>
     <div className="text-center w-full bg-bk-pink-dark">
       <div class="flex flex-wrap w-full bg-bk-pink-dark">
-        <div class="w-full p-8">
+        <div class="w-full p-10">
           <h1 class="text-bk-blue">RSVP</h1>
           <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
           <form
@@ -99,9 +101,9 @@ const IndexPage = props => (
     </div>
     <div className="text-center justify-center w-full bg-white">
       <div class="flex flex-wrap justify-center w-full bg-white">
-        <div class="w-full bg-bk-pink p-2">
+        <div class="w-full bg-bk-pink p-10">
           <h1 class="text-bk-blue">Registry</h1>
-          <h2 class="text-bk-blue">Click one of the images below</h2>
+          <h2 class="text-bk-blue pt-5">Click one of the images below</h2>
           <div class="px-20 py-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
             <a href="http://www.target.com">
               <Img

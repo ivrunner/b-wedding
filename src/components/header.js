@@ -30,7 +30,7 @@ const Header = props => (
         to="/"
         className="flex items-center no-underline py-5 text-white w-1/2 sm:w-1/3 md:w-1/6"
       >
-        <img src={bklogo} className="" alt="Brook & Kyle Logo" />
+        <img src={bklogo} className="" alt="Brooke & Kyle Logo" />
       </Link>
     </div>
   </nav>

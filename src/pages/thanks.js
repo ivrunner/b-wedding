@@ -1,8 +1,11 @@
 import React from "react";
 
 export default () => (
-  <div>
+  <div class="bg-bk-pink text-white w-3/4">
     <h1>Thank you!</h1>
-    <p>This is a custom thank you page for submissions from the contact form</p>
+    <p>Your RSVP has been submitted! Click below to go back!</p>
+    <button class="bg-bk-blue hover:bg-bk-pink text-white font-bold py-2 px-4 rounded">
+      <a href="/">Go Back!</a>
+    </button>
   </div>
 );
