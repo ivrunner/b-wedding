@@ -44,7 +44,7 @@ const IndexPage = props => (
         <div class="w-full p-10">
           <h1 class="font-serif text-bk-blue">RSVP</h1>
           <h2 class="font-serif text-bk-blue py-5">
-            Please fill out the form below
+            Please fill out the form below.
           </h2>
           <form
             name="rsvp"
