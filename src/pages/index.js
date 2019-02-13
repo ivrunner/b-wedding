@@ -106,9 +106,9 @@ const IndexPage = props => (
         <div class="w-full bg-bk-pink p-10">
           <h1 class="font-serif text-bk-blue">Registry</h1>
           <h2 class="font-serif text-bk-blue pt-5">
-            Click one of the images below
+            Click below for the Bride & Groom's Registries
           </h2>
-          <div class="px-20 py-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
+          <div class="px-10 py-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
             <a href="http://www.target.com">
               <Img
                 fluid={props.data.target.childImageSharp.fluid}
@@ -117,7 +117,7 @@ const IndexPage = props => (
               />
             </a>
           </div>
-          <div class="px-20 pb-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
+          <div class="px-10 pb-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
             <a href="http://amazon.com">
               <Img
                 fluid={props.data.amazon.childImageSharp.fluid}
@@ -126,13 +126,13 @@ const IndexPage = props => (
               />
             </a>
           </div>
-          <h3 class="font-serif leading-normal text-center text-bk-blue px-10 pb-5">
+          <h3 class="font-serif leading-normal text-center text-bk-blue px-0 pb-5">
             The Bride & Groom ask that if you feel the need to purchase a gift
             that it be a gift card or money towards a honeymoon. If you do
             purchase a gift please have it shipped to their home at the address
             below:
           </h3>
-          <h2 class="font-serif leading-normal text-center text-bk-blue px-10 pb-10">
+          <h2 class="font-serif leading-normal text-center text-bk-blue px-0 pb-10">
             12311 Kensington Lakes Dr Unit 1905, Jacksonville, FL 32246-7167
           </h2>
         </div>
