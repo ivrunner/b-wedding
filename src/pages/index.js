@@ -53,7 +53,7 @@ const IndexPage = props => (
             data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="bot-field" />
-            <p class="p-5">
+            <p class="text-bk-blue font-serif p-5">
               <label>
                 Your Name:{" "}
                 <div class="inline-block relative w-64">
@@ -65,7 +65,7 @@ const IndexPage = props => (
                 </div>
               </label>
             </p>
-            <p class="p-5">
+            <p class="text-bk-blue font-serif p-5">
               <label>
                 How Many?{" "}
                 <div class="inline-block relative w-64">
@@ -77,7 +77,7 @@ const IndexPage = props => (
                 </div>
               </label>
             </p>
-            <p class="p-5">
+            <p class="text-bk-blue font-serif p-5">
               <label>
                 Your Email:{" "}
                 <div class="inline-block relative w-64">
