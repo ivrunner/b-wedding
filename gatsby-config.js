@@ -22,7 +22,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        theme_color: `#F1817E`,
         display: `minimal-ui`,
         icon: `src/images/tailwind-icon.png` // This path is relative to the root of the site.
       }

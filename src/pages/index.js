@@ -20,21 +20,21 @@ const IndexPage = props => (
         </div>
 
         <div class="w-full md:w-1/2 p-10 md:align-middle md:m-auto">
-          <div class="p-5">
-            <h1 class="text-bk-pink">Time & Date</h1>
-            <h2 class="text-bk-pink">Saturday July 1st, 2019</h2>
-            <p class="text-white">at 2 o'clock in the afternoon</p>
+          <div class="py-5">
+            <h1 class="font-serif text-bk-pink">Time & Date</h1>
+            <h2 class="font-serif text-bk-pink">Saturday July 1st, 2019</h2>
+            <h2 class="font-serif text-white">at 2 o'clock in the afternoon</h2>
           </div>
-          <div class="p-5">
-            <h1 class="text-bk-pink">First Brethren Church</h1>
-            <p class="text-white">13050 Williams County Rd C</p>
-            <p class="text-white">Bryan, Ohio 43506</p>
+          <div class="py-5">
+            <h1 class="font-serif text-bk-pink">First Brethren Church</h1>
+            <h2 class="font-serif text-white">13050 Williams County Rd C</h2>
+            <h2 class="font-serif text-white">Bryan, Ohio 43506</h2>
           </div>
-          <div class="p-5">
-            <h1 class="text-bk-pink">Reception to follow at:</h1>
-            <h2 class="text-bk-pink">K of C Hall</h2>
-            <p class="text-white">111 Elliott Rd</p>
-            <p class="text-white">Defiance, Ohio 43512</p>
+          <div class="py-5">
+            <h1 class="font-serif text-bk-pink">Reception to follow at:</h1>
+            <h2 class="font-serif text-bk-pink">K of C Hall</h2>
+            <h2 class="font-serif text-white">111 Elliott Rd</h2>
+            <h2 class="font-serif text-white">Defiance, Ohio 43512</h2>
           </div>
         </div>
       </div>
@@ -42,8 +42,10 @@ const IndexPage = props => (
     <div className="text-center w-full bg-bk-pink-dark">
       <div class="flex flex-wrap w-full bg-bk-pink-dark">
         <div class="w-full p-10">
-          <h1 class="text-bk-blue">RSVP</h1>
-          <h2 class="text-bk-blue py-5">Please fill out the form below</h2>
+          <h1 class="font-serif text-bk-blue">RSVP</h1>
+          <h2 class="font-serif text-bk-blue py-5">
+            Please fill out the form below
+          </h2>
           <form
             name="rsvp"
             method="post"
@@ -102,8 +104,10 @@ const IndexPage = props => (
     <div className="text-center justify-center w-full bg-white">
       <div class="flex flex-wrap justify-center w-full bg-white">
         <div class="w-full bg-bk-pink p-10">
-          <h1 class="text-bk-blue">Registry</h1>
-          <h2 class="text-bk-blue pt-5">Click one of the images below</h2>
+          <h1 class="font-serif text-bk-blue">Registry</h1>
+          <h2 class="font-serif text-bk-blue pt-5">
+            Click one of the images below
+          </h2>
           <div class="px-20 py-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
             <a href="http://www.target.com">
               <Img
@@ -122,13 +126,13 @@ const IndexPage = props => (
               />
             </a>
           </div>
-          <h3 class="leading-normal text-center text-bk-blue px-10 pb-5">
+          <h3 class="font-serif leading-normal text-center text-bk-blue px-10 pb-5">
             The Bride & Groom ask that if you feel the need to purchase a gift
             that it be a gift card or money towards a honeymoon. If you do
             purchase a gift please have it shipped to their home at the address
             below:
           </h3>
-          <h2 class="leading-normal text-center text-bk-blue px-10 pb-10">
+          <h2 class="font-serif leading-normal text-center text-bk-blue px-10 pb-10">
             12311 Kensington Lakes Dr Unit 1905, Jacksonville, FL 32246-7167
           </h2>
         </div>
