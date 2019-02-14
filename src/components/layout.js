@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import Header from "./header";
 import "../css/style.css";
+import mdcCredit from "../images/mdc-credit.svg";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,16 +25,15 @@ const Layout = ({ children }) => (
         </div>
 
         <footer className="bg-bk-pink-dark">
-          <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
-            <p className="text-white">
-              Created by{" "}
-              <a
-                href="http://www.richmatney.com"
-                className="font-bold no-underline text-white"
-              >
-                Matney Design Co.
-              </a>
-            </p>
+          <div className="inline-flex justify-center max-w-xl mx-auto px-5">
+            <p class="font-serif text-bk-blue m-auto">Created By </p>
+            <a href="http://richmatney.com">
+              <img
+                src={mdcCredit}
+                className="w-10 h-10 my-5 mx-2"
+                alt="MDC Logo"
+              />
+            </a>
           </div>
         </footer>
       </div>

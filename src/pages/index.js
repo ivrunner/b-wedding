@@ -132,7 +132,7 @@ const IndexPage = props => (
             purchase a gift please have it shipped to their home at the address
             below:
           </h3>
-          <h2 class="font-serif leading-normal text-center text-bk-blue px-0 pb-10">
+          <h2 class="font-serif leading-normal text-center text-bk-blue px-0 pb-0">
             12311 Kensington Lakes Dr Unit 1905, Jacksonville, FL 32246-7167
           </h2>
         </div>
