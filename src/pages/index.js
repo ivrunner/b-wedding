@@ -112,7 +112,7 @@ const IndexPage = props => (
             Click below for the Bride & Groom's Registries
           </h2>
           <div class="px-10 py-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
-            <a href="http://www.target.com">
+            <a href="https://www.target.com/gift-registry/giftgiver?registryId=4c7068963df6485085c9dffff837aa66&type=WEDDING">
               <Img
                 fluid={props.data.target.childImageSharp.fluid}
                 class=""
@@ -121,7 +121,7 @@ const IndexPage = props => (
             </a>
           </div>
           <div class="px-10 pb-10 w-full justify-center md:w-1/2 md:ml-auto md:mr-auto">
-            <a href="http://amazon.com">
+            <a href="https://www.amazon.com/wedding/brooke-manning-kyle-thomas-bryan-june-2019/registry/3I2OEF1121MOO">
               <Img
                 fluid={props.data.amazon.childImageSharp.fluid}
                 class=""
