@@ -46,6 +46,9 @@ const IndexPage = props => (
           <h2 class="font-serif text-bk-blue py-5">
             Please fill out the form below.
           </h2>
+          <h3 class="font-serif text-bk-blue py-0">
+            Or you may call or text Brooke at 419-799-0565.
+          </h3>
           <form
             name="rsvp"
             method="post"
