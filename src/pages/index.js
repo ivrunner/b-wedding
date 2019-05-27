@@ -22,7 +22,7 @@ const IndexPage = props => (
         <div class="w-full md:w-1/2 p-10 md:align-middle md:m-auto">
           <div class="py-5">
             <h1 class="font-serif text-bk-pink">Time & Date</h1>
-            <h2 class="font-serif text-bk-pink">Saturday July 1st, 2019</h2>
+            <h2 class="font-serif text-bk-pink">Saturday August 10th, 2019</h2>
             <h2 class="font-serif text-white">at 2 o'clock in the afternoon</h2>
           </div>
           <div class="py-5">
@@ -69,7 +69,7 @@ const IndexPage = props => (
               </label>
             </p>
             <p class="text-bk-blue font-serif p-5">
-              <label>
+              <label class="test-bk-blue">
                 How Many?{" "}
                 <div class="inline-block relative w-64">
                   <input

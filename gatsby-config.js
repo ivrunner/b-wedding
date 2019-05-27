@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Brooke & Kyle Wedding`,
-    description: `Wedding Website for Brooke & Kyle`,
+    description: `Brooke & Kyle`,
     author: `Rich Matney`
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `Brooke & Kyle`,
+        name: `Thomas-Wedding`,
+        short_name: `Thomas Wedding`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#F1817E`,
