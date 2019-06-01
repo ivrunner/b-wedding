@@ -23,7 +23,7 @@ const IndexPage = props => (
           <div class="py-5">
             <h1 class="font-serif text-bk-pink">Time & Date</h1>
             <h2 class="font-serif text-bk-pink">Saturday August 10th, 2019</h2>
-            <h2 class="font-serif text-white">at 2 o'clock in the afternoon</h2>
+            <h2 class="font-serif text-white">at 3:30 in the afternoon</h2>
           </div>
           <div class="py-5">
             <h1 class="font-serif text-bk-pink">First Brethren Church</h1>
@@ -31,9 +31,11 @@ const IndexPage = props => (
             <h2 class="font-serif text-white">Bryan, Ohio 43506</h2>
           </div>
           <div class="py-5">
-            <h1 class="font-serif text-bk-pink">Reception to follow at:</h1>
-            <h2 class="font-serif text-bk-pink">K of C Hall</h2>
-            <h2 class="font-serif text-white">111 Elliott Rd</h2>
+            <h2 class="font-serif text-bk-pink">
+              Reception to follow at 6:30pm
+            </h2>
+            <h1 class="font-serif text-bk-pink">Westside Hall</h1>
+            <h2 class="font-serif text-white">20308 County Rd 424</h2>
             <h2 class="font-serif text-white">Defiance, Ohio 43512</h2>
           </div>
         </div>
