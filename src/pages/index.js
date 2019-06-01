@@ -32,7 +32,7 @@ const IndexPage = props => (
           </div>
           <div class="py-5">
             <h2 class="font-serif text-bk-pink">
-              Reception to follow at 6:30pm
+              Reception to follow at 6:00pm
             </h2>
             <h1 class="font-serif text-bk-pink">Westside Hall</h1>
             <h2 class="font-serif text-white">20308 County Rd 424</h2>
