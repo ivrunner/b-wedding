@@ -71,7 +71,7 @@ const IndexPage = props => (
               </label>
             </p>
             <p class="text-bk-blue font-serif p-5">
-              <label class="test-bk-blue">
+              <label>
                 How Many?{" "}
                 <div class="inline-block relative w-64">
                   <input
@@ -138,7 +138,7 @@ const IndexPage = props => (
             below:
           </h3>
           <h2 class="font-serif leading-normal text-center text-bk-blue px-0 pb-0">
-            12311 Kensington Lakes Dr Unit 1905, Jacksonville, FL 32246-7167
+            11482 Def/Wms County Line Rd Bryan, Oh 43506
           </h2>
         </div>
       </div>
