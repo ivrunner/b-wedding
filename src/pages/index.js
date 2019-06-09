@@ -27,7 +27,7 @@ const IndexPage = props => (
           </div>
           <div class="py-5">
             <h1 class="font-serif text-bk-pink">First Brethren Church</h1>
-            <h2 class="font-serif text-white">13050 Williams County Rd C</h2>
+            <h2 class="font-serif text-white">13050 County Rd C</h2>
             <h2 class="font-serif text-white">Bryan, Ohio 43506</h2>
           </div>
           <div class="py-5">
